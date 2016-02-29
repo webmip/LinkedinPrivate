@@ -5,7 +5,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | See any profile</title>
     <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
