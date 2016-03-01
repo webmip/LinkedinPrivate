@@ -18,8 +18,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | Visualiza cualquier perfil</title>
-    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
-    <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
+    <meta name="description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles." />
+    <meta name="keywords" content="LinkedIn, Private, Contacts, Hacking, Tool" />
     <meta name="author" content="webmip" />
     
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
@@ -71,7 +71,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
       <div class="container">
         <a class="navbar-brand" href="#start">
           <span class="icon-logo">
-			<img src="../img/LinkedLogos.png"/>
+			<img src="../img/LinkedLogo.png"/>
 		  </span>
           <span class="sr-only">LinkedInPrivate</span>
         </a>
@@ -339,8 +339,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 
-	<script src="..js/landio.min.js"></script>
-	<script src="..js/validate.js"></script>
+	<script src="../js/landio.min.js"></script>
+	<script src="../js/validate.js"></script>
 	
 	
 	<script>
