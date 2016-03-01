@@ -42,7 +42,6 @@
 	<meta property="og:site_name" content="LinkedIn Private">
 	<meta property="og:url" content="https://linkedinprivate.com">
 	<meta property="og:description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles.">
-	<meta property="fb:app_id" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
  
@@ -242,7 +241,7 @@ s.setAttribute('data-timestamp', +new Date());
           </div>
           <div class="col-md-6 col-lg-7">
             <ul class="nav nav-inline">
-			<li class="nav-item"><a class="nav-link scroll-top" href="https://www.ssllabs.com/ssltest/analyze.html?d=linkedinprivate.com&s=104.18.44.67&hideResults=on" target="_blank"><img src="img/pci.png" style="width: 120px;" /></a></li>
+			<li class="nav-item"><a class="nav-link scroll-top" href="https://www.ssllabs.com/ssltest/analyze.html?d=linkedinprivate.com&s=104.18.44.67&hideResults=on" target="_blank"><img src="../img/pci.png" style="width: 120px;" /></a></li>
               <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Ir arriba <span class="icon-caret-up"></span></a></li>
             </ul>
           </div>

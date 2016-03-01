@@ -49,9 +49,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
  
 	<meta property="og:title" content="LinkedInPrivate nueva herramienta para ver perfiles anonimamente">
 	<meta property="og:site_name" content="LinkedIn Private">
-	<meta property="og:url" content="https://linkedinprivate.com">
+	<meta property="og:url" content="https://linkedinprivate.com/es/">
 	<meta property="og:description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos.">
-	<meta property="fb:app_id" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
  

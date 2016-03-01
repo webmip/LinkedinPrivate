@@ -52,7 +52,6 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 	<meta property="og:site_name" content="LinkedIn Private">
 	<meta property="og:url" content="https://linkedinprivate.com">
 	<meta property="og:description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles.">
-	<meta property="fb:app_id" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
  
