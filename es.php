@@ -1,6 +1,6 @@
 <?php
 session_start();
- if(isset($_GET['lcs']) /*you can validate the link here*/){
+ if(isset($_GET['lcs'])){
     $_SESSION['lc']=$_GET['lcs'];
  }
 if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
@@ -9,10 +9,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 		header("location: index.php");
 		exit();
 	}
-}else{
-	header("location: index.php");
-	exit();	
-}	
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -25,21 +22,21 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
     <meta name="author" content="webmip" />
     
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link rel="manifest" href="img/favicon/manifest.json">
-	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../img/favicon/manifest.json">
+	<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#663fb5">
     <meta name="theme-color" content="#663fb5">
     
@@ -60,7 +57,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
  
 	<link rel="canonical" href="https://linkedinprivate.com"/>
 	
-	<link rel="stylesheet" href="css/landio.css">
+	<link rel="stylesheet" href="../css/landio.css">
 	
 	
   </head>
@@ -74,7 +71,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
       <div class="container">
         <a class="navbar-brand" href="#start">
           <span class="icon-logo">
-			<img src="img/LinkedLogo.png"/>
+			<img src="../img/LinkedLogos.png"/>
 		  </span>
           <span class="sr-only">LinkedInPrivate</span>
         </a>
@@ -82,7 +79,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="en.php?lcs=en">EN&nbsp;<img src="img/UK_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="en.php?lcs=en">EN&nbsp;<img src="../img/UK_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>
@@ -113,7 +110,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
       <div class="container">
         <h3 class="wp wp-1">Mira cualquier usuario de LinkedIn como si fuera tu amigo</h3>
         <p class="lead wp wp-2">No deja rastro, nuestro sitio actúa de intermediario. No guardamos registros</p>
-        <img src="img/banner.png" alt="iPad mock" class="img-fluid wp wp-3">
+        <img src="../img/banner.png" alt="iPad mock" class="img-fluid wp wp-3">
       </div>
     </section>
 
@@ -243,7 +240,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 
             <div class="carousel-item active">
               <blockquote class="blockquote">
-                <img src="img/face5.jpg" height="80" width="80" alt="Avatar" class="img-circle">
+                <img src="../img/face5.jpg" height="80" width="80" alt="Avatar" class="img-circle">
                 <p class="h3">Esta herramienta nos ha sido de gran utilidad en el proceso de selección de candidatos, donde es esencial saber a quién contratar.</p>
                 <footer>H&B Selection</footer>
               </blockquote>
@@ -299,7 +296,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
             </div>
             <div class="col-md-6 col-xl-3">
               <div class="form-group">
-                <button value="submit" type="submit" onClick="ga('send', 'event', { eventCategory: 'Send', eventAction: 'Pwned', eventLabel: 'Contacten'});" class="btn btn-primary btn-block">BUSCAR!</button>
+                <button value="submit" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'Boton-envio-es';" type="submit" class="btn btn-primary btn-block">Buscar!</button>
               </div>
             </div>
 			</fieldset>
@@ -330,7 +327,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
           </div>
           <div class="col-md-6 col-lg-7">
             <ul class="nav nav-inline">
-			  <li class="nav-item"><a class="nav-link scroll-top" href="https://www.ssllabs.com/ssltest/analyze.html?d=linkedinprivate.com&s=104.18.44.67&hideResults=on" target="_blank"><img src="img/pci.png" style="width: 120px;" /></a></li>
+			  <li class="nav-item"><a class="nav-link scroll-top" href="https://www.ssllabs.com/ssltest/analyze.html?d=linkedinprivate.com&s=104.18.44.67&hideResults=on" target="_blank"><img src="../img/pci.png" style="width: 120px;" /></a></li>
               <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Ir arriba <span class="icon-caret-up"></span></a></li>
             </ul>
           </div>
@@ -342,8 +339,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 
-	<script src="js/landio.min.js"></script>
-	<script src="js/validate.js"></script>
+	<script src="..js/landio.min.js"></script>
+	<script src="..js/validate.js"></script>
 	
 	
 	<script>
