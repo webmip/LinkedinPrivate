@@ -18,8 +18,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | Visualiza cualquier perfil</title>
-    <meta name="description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles." />
-    <meta name="keywords" content="LinkedIn, Private, Contacts, Hacking, Tool" />
+    <meta name="description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos." />
+    <meta name="keywords" content="LinkedIn, Privado, Contactos, Hacking, Tool, anonimo" />
     <meta name="author" content="webmip" />
     
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
@@ -43,14 +43,14 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:creator" content="@cg_sanchez">
 	<meta name="twitter:site" content="@cg_sanchez">
-	<meta name="twitter:title" content="LinkedInPrivate new FREE tool">
-	<meta name="twitter:description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles.">
+	<meta name="twitter:title" content="LinkedInPrivate nueva herramienta para ver perfiles anonimamente">
+	<meta name="twitter:description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos.">
 	<meta name="twitter:image" content="https://linkedinprivate.com/rssimg.jpg">
  
-	<meta property="og:title" content="LinkedInPrivate | See any profile">
+	<meta property="og:title" content="LinkedInPrivate nueva herramienta para ver perfiles anonimamente">
 	<meta property="og:site_name" content="LinkedIn Private">
 	<meta property="og:url" content="https://linkedinprivate.com">
-	<meta property="og:description" content="View any profile linkedIn privately, without a trace and free for all. Use this new tool for lookup all the LinkedIn profiles.">
+	<meta property="og:description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos.">
 	<meta property="fb:app_id" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
@@ -269,7 +269,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 			<li>Pulsa BUSCAR y espera unos segundos, nuestro motor SET (Search Engine Tool) te indicará la URL para ver el perfil de forma anónima</li>
 			</ol>
          </h6>  
-        <form action="resultado_es.php" method="post" id="register-form" novalidate="novalidate">
+        <form action="/resultado_es/" method="post" id="register-form" novalidate="novalidate">
           <div class="row" id="form-content">
 		  <fieldset>
             <div class="col-md-6 col-xl-3">

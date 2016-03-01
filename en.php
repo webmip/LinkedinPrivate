@@ -270,7 +270,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 			<li>Push Submit and wait for a few seconds, our SET (Search Engine Tool) give you the requested profile</li>
 			</ol>
          </h6>  
-        <form action="result_en.php" method="post" id="register-form" novalidate="novalidate">
+        <form action="/result_en/" method="post" id="register-form" novalidate="novalidate">
           <div class="row" id="form-content">
 		  <fieldset>
             <div class="col-md-6 col-xl-3">

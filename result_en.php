@@ -12,24 +12,24 @@
     <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
     <meta name="author" content="webmip" />
     
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link rel="manifest" href="img/favicon/manifest.json">
-	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../img/favicon/manifest.json">
+	<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#663fb5">
     <meta name="theme-color" content="#663fb5">
-    <link rel="stylesheet" href="css/landio.css">
+    <link rel="stylesheet" href="../css/landio.css">
 	
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:creator" content="@cg_sanchez">
@@ -72,7 +72,7 @@
       <div class="container">
         <a class="navbar-brand" href="en.php">
           <span class="icon-logo">
-			<img src="img/LinkedLogo.png"/>
+			<img src="../img/LinkedLogo.png"/>
 		  </span>
           <span class="sr-only">LinkedInPrivate</span>
         </a>
@@ -80,7 +80,7 @@
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="resultado_es.php">ESP &nbsp;<img src="img/ES_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="/resultado_es/">ESP &nbsp;<img src="../img/ES_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>
@@ -98,7 +98,7 @@
         <h1>Ooops!</h1>
         <h2>Sorry, but this is just a experiment.</h2>
 		<h5>For a safer internet</h5>
-        <img src="img/bannerlab.png" alt="iPad mock" class="img-fluid wp wp-3">
+        <img src="../img/bannerlab.png" alt="iPad mock" class="img-fluid wp wp-3">
       </div>
     </section>
 
@@ -254,8 +254,8 @@ s.setAttribute('data-timestamp', +new Date());
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 
-	<script src="js/landio.min.js"></script>
-	<script src="js/validate.js"></script>
+	<script src="../js/landio.min.js"></script>
+	<script src="../js/validate.js"></script>
 	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
