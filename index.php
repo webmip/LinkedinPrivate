@@ -65,7 +65,12 @@ if($lc == "es"){
   </head>
 
   <body>
-
+	<script>
+    peekin = {api_key: "9161d58500afa94f9707"};    
+     peekin.identity = "Joe Smith";
+	</script>
+	<script src="//api.peekin.io/peekin.js" async></script>
+  
     <!-- Navigation
     ================================================== -->
 
