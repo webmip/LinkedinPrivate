@@ -65,7 +65,7 @@ else{ // don't forget the default case if $lc is empty
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
  
-	<link rel="canonical" href="https://linkedinprivate.com"/>
+	
 	
 	<link rel="stylesheet" href="css/landio.css">
 	
@@ -306,7 +306,7 @@ else{ // don't forget the default case if $lc is empty
             </div>
             <div class="col-md-6 col-xl-3">
               <div class="form-group">
-                <button value="submit" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'Boton-submit-en';" type="submit" class="btn btn-primary btn-block">Submit!</button>
+                <button value="submit" type="submit" onClick="ga('send', 'event', { eventCategory: 'Send', eventAction: 'Pwned', eventLabel: 'Contactes'});" class="btn btn-primary btn-block">Submit!</button>
               </div>
             </div>
 			</fieldset>
