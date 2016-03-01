@@ -43,8 +43,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@cg_sanchez">
 	<meta name="twitter:site" content="@cg_sanchez">
-	<meta name="twitter:title" content="LinkedInPrivate nueva herramienta para ver perfiles anonimamente">
-	<meta name="twitter:description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos.">
+	<meta name="twitter:title" content="LinkedInPrivate nueva herramienta para ver perfiles anónimamente">
+	<meta name="twitter:description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anónima. No deja rastro, no guarda datos.">
 	<meta name="twitter:image" content="https://linkedinprivate.com/rssimg.jpg">
  
 	<meta property="og:title" content="LinkedInPrivate nueva herramienta para ver perfiles anonimamente">

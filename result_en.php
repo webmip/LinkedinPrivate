@@ -69,7 +69,7 @@
 
     <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="en.php">
+        <a class="navbar-brand" href="/en/">
           <span class="icon-logo">
 			<img src="../img/LinkedLogo.png"/>
 		  </span>
