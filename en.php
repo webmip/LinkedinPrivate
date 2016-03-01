@@ -41,7 +41,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <meta name="msapplication-TileColor" content="#663fb5">
     <meta name="theme-color" content="#663fb5">
     
-	<meta name="twitter:card" content="summary">
+	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@cg_sanchez">
 	<meta name="twitter:site" content="@cg_sanchez">
 	<meta name="twitter:title" content="LinkedInPrivate new FREE tool">
@@ -257,9 +257,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <section class="section-signup bg-faded">
       <div class="container">
         <h3 class="text-xs-center m-b-3">Try it now! Look at any profile</h3>
-		<h4 class="text-xs-center m-b-3"><a  name="start" href="javascript:;" class="btn btn-social btn-block bg-linkedin">
-            <span class="icon-linkedin"></span> Fill the following form for make your FREE request LinkedIn profile lookup
-          </a></h4>
+		<a name="start" href="javascript:;"></a>
 		  
 		<h6 class="text m-b-3">
             <ol>

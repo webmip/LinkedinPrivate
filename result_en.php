@@ -31,7 +31,7 @@
     <meta name="theme-color" content="#663fb5">
     <link rel="stylesheet" href="../css/landio.css">
 	
-	<meta name="twitter:card" content="summary">
+	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@cg_sanchez">
 	<meta name="twitter:site" content="@cg_sanchez">
 	<meta name="twitter:title" content="LinkedInPrivate new FREE tool">
