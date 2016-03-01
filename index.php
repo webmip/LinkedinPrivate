@@ -9,7 +9,7 @@ if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
     // Now we simply evaluate that variable to detect specific languages
 if($lc == "es"){
 	$_SESSION["lc"] = $lc;
-    header("location: /es");
+    header("location: /es/");
     exit();
 }
 
@@ -18,7 +18,7 @@ if($lc == "es"){
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/ />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | See any profile</title>
     <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
@@ -82,7 +82,7 @@ if($lc == "es"){
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="es.php?lcs=es">ESP&nbsp;<img src="img/ES_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="/en/?lcs=en">ESP&nbsp;<img src="img/ES_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>

@@ -6,7 +6,7 @@ session_start();
 if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 	if($_SESSION["lc"] == "es"){
 		$_SESSION["lc"] = $lc;
-		header("location: /es");
+		header("location: /es/");
 		exit();
 	}
 }
@@ -16,7 +16,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/ />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | See any profile</title>
     <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
@@ -80,7 +80,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="es.php?lcs=es">ESP&nbsp;<img src="../img/ES_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="/es/?lcs=en">ESP&nbsp;<img src="../img/ES_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>
@@ -340,8 +340,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 
-	<script src="js/landio.min.js"></script>
-	<script src="js/validate.js"></script>
+	<script src="../js/landio.min.js"></script>
+	<script src="../js/validate.js"></script>
 	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

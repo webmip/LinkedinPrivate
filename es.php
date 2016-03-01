@@ -79,7 +79,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="en.php?lcs=en">EN&nbsp;<img src="../img/UK_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="/en/?lcs=en">EN&nbsp;<img src="../img/UK_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>
@@ -96,9 +96,9 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
         <h2 class="m-b-3">Visualiza cualquier perfil, <em>como si fuera de primer nivel, sin dejar rastro</em>.</h2>
         <a class="btn btn-secondary-outline m-b-1" href="#start" role="button"></span>BUSCAR PERFIL GRATIS</a>
         <ul class="nav nav-inline social-share">
-          <li class="nav-item"><a class="nav-link" href="https://twitter.com/share?url=https://linkedinprivate.com&amp;text=Mira%20esta%20herramienta%20para%20LinkedIn&amp;hashtags=LinkedIn" target="_blank"><span class="icon-twitter"></span> 1024</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://www.facebook.com/sharer.php?u=https://linkedinprivate.com" target="_blank"><span class="icon-facebook"></span> 562</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://linkedinprivate.com" target="_blank"><span class="icon-linkedin"></span> 356</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://twitter.com/share?url=https://linkedinprivate.com/es/&amp;text=Mira%20esta%20herramienta%20para%20LinkedIn&amp;hashtags=LinkedIn" target="_blank"><span class="icon-twitter"></span> 1024</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://www.facebook.com/sharer.php?u=https://linkedinprivate.com/es/" target="_blank"><span class="icon-facebook"></span> 562</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://linkedinprivate.com/es/" target="_blank"><span class="icon-linkedin"></span> 356</a></li>
         </ul>
       </div>
     </header>
