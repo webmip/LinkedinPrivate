@@ -80,7 +80,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
         
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="/es/?lcs=en">ESP&nbsp;<img src="../img/ES_flag.png" style="width: 50px;" /></a>
+              <a class="nav-link" href="/es/?lcs=es">ESP&nbsp;<img src="../img/ES_flag.png" style="width: 50px;" /></a>
             </li>
             
           </ul>
