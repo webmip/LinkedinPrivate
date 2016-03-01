@@ -18,8 +18,8 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | Visualiza cualquier perfil</title>
-    <meta name="description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anonima. No deja rastro, no guarda datos." />
-    <meta name="keywords" content="LinkedIn, Privado, Contactos, Hacking, Tool, anonimo" />
+    <meta name="description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anónima. No deja rastro, no guarda datos." />
+    <meta name="keywords" content="LinkedIn, Privado, Contactos, Hacking, Tool, anónimo" />
     <meta name="author" content="webmip" />
     
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
@@ -293,7 +293,7 @@ if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
             </div>
             <div class="col-md-6 col-xl-3">
               <div class="form-group">
-                <button value="submit" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'Boton-envio-es';" type="submit" class="btn btn-primary btn-block">Buscar!</button>
+                <button value="submit" type="submit" onClick="ga('send', 'event', { eventCategory: 'Send', eventAction: 'Pwned', eventLabel: 'Contactes'});" class="btn btn-primary btn-block">Buscar!</button>
               </div>
             </div>
 			</fieldset>

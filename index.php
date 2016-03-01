@@ -296,7 +296,7 @@ if($lc == "es"){
             </div>
             <div class="col-md-6 col-xl-3">
               <div class="form-group">
-                <button value="submit" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'Boton-submit-en';" type="submit" class="btn btn-primary btn-block">Submit!</button>
+                <button value="submit" type="submit" onClick="ga('send', 'event', { eventCategory: 'Send', eventAction: 'Pwned', eventLabel: 'Contacten'});" class="btn btn-primary btn-block">Submit!</button>
               </div>
             </div>
 			</fieldset>

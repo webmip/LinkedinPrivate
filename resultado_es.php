@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/ />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LinkedInPrivate | See any profile</title>
-    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
-    <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
+    <meta name="description" content="Visualiza cualquier perfil de LinkedIn de forma 100% anónima. No deja rastro, no guarda datos." />
+    <meta name="keywords" content="LinkedIn, Privado, Contactos, Hacking, Tool, anónimo" />
     <meta name="author" content="webmip" />
     
 	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
@@ -46,9 +46,8 @@
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://linkedinprivate.com/rssimg.jpg" />
  
-	<link rel="canonical" href="https://linkedinprivate.com"/>
- 
-	<link rel="canonical" href="https://linkedinprivate.com"/>
+	<link rel="canonical" href="https://linkedinprivate.com/es/"/>
+
 	
 	<style type="text/css">
  
