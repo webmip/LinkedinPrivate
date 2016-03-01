@@ -6,7 +6,7 @@ session_start();
 if(isset($_SESSION["lc"]) && !empty($_SESSION["lc"])){
 	if($_SESSION["lc"] != "es"){
 		$_SESSION["lc"] = $lc;
-		header("location: index.php");
+		header("location: https://www.linkedinprivate.com/en/");
 		exit();
 	}
 }
