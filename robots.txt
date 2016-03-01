@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /resultado_es/
+Disallow: /result_en/
