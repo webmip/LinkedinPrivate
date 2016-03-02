@@ -175,6 +175,18 @@
             </div>
 		</div>
       </div>
+	  
+		<div class="container">
+		<div class="row">
+			<div class="card m-b-0">
+              <div class="card-block">
+                <p>If you want to read more information about, can visit this post</p>
+				<p><a href="https://www.webmip.com/viewing-linkedin-profiles-anonymously/" target="_blank">Viewing LinkedIn profiles anonymously</a></p>
+              </div>
+            </div>
+		</div>
+      </div>  
+	  
     </section>
 
 	<section class="section-testimonials text-xs-center bg-inverse">

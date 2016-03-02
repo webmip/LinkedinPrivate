@@ -176,6 +176,19 @@
             </div>
 		</div>
       </div>
+	  
+	    <div class="container">
+		<div class="row">
+			<div class="card m-b-0">
+              <div class="card-block">
+                <p>Si quieres ver algo mas de informacion puedes visitar este post</p>
+				<p><a href="https://www.webmip.es/viendo-perfiles-de-linkedin-de-forma-anonima/" target="_blank">Viendo perfiles de LinkedIn de forma anónima</a></p>
+              </div>
+            </div>
+		</div>
+      </div>
+	  
+	  
     </section>
 
 	<section class="section-testimonials text-xs-center bg-inverse">
