@@ -181,8 +181,8 @@
 		<div class="row">
 			<div class="card m-b-0">
               <div class="card-block">
-                <p>Si quieres ver algo mas de informacion puedes visitar este post</p>
-				<p><a href="https://www.webmip.es/viendo-perfiles-de-linkedin-de-forma-anonima/" target="_blank">Viendo perfiles de LinkedIn de forma anónima</a></p>
+                <p>Si quieres ver algo mas de informacion puedes visitar este post:</p>
+				<h5><a href="https://www.webmip.es/viendo-perfiles-de-linkedin-de-forma-anonima/" target="_blank">Viendo perfiles de LinkedIn de forma anónima</a></h5>
               </div>
             </div>
 		</div>

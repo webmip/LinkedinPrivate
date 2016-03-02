@@ -180,8 +180,8 @@
 		<div class="row">
 			<div class="card m-b-0">
               <div class="card-block">
-                <p>If you want to read more information about, can visit this post</p>
-				<p><a href="https://www.webmip.com/viewing-linkedin-profiles-anonymously/" target="_blank">Viewing LinkedIn profiles anonymously</a></p>
+                <p>If you want to read more information about, can visit this post:</p>
+				<h5><a href="https://www.webmip.com/viewing-linkedin-profiles-anonymously/" target="_blank">Viewing LinkedIn profiles anonymously</a></h5>
               </div>
             </div>
 		</div>
